@@ -2,11 +2,12 @@
 <input type="checkbox" name="<%$name%>" id="<%$name%>" \
 class="CF-<%$CustomField->id%>-Edit" value="1"<%$checked%> />
 <%INIT>
-my $checked = $Default ? ' checked' : '';
+my $checked = $Values ? ' checked' : '';
 </%INIT>
 <%ARGS>
 $CustomField => undef
 $NamePrefix => undef
 $Name => undef
 $Default => undef
+$Values => undef
 </%ARGS>
