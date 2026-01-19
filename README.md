@@ -4,7 +4,7 @@ RT-Extension-BooleanCustomField - CF with checkbox to set or unset its value
 
 # DESCRIPTION
 
-Provide a new type of [custom field](https://metacpan.org/pod/RT::CustomField), which value can only be set or unset. Editing a `BooleanCustomField` is done through a single checkbox.
+Provide a new type of [custom field](https://metacpan.org/pod/RT%3A%3ACustomField), which value can only be set or unset. Editing a `BooleanCustomField` is done through a single checkbox.
 
 This enhances the behaviour allowed by core `Request Tracker` through `SelectCustomField`, where editing a `SelectCustomField`, with only a single value, should be done through a dropdown menu, radio buttons or checkboxes, including the single value and `no value`. With `BooleanCustomField`, you have only a single checkbox to check or uncheck.
 
