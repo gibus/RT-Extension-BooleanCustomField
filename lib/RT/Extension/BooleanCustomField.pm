@@ -28,6 +28,10 @@ It should be noted that from RT 5, you can use a C<SelectCustomField> with C<Che
 
 =over
 
+=item export C<$RTHOME=/home/of/your/RT/installation/lib>
+
+This is needed if your C<RT> installation directory is not C</opt/rt6/> (nor C</opt/rt5> for RT 5, nor C</opt/rt4> for RT 4)
+
 =item C<perl Makefile.PL>
 
 =item C<make>

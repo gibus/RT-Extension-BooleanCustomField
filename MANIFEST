@@ -1,4 +1,5 @@
 Changes
+etc/boolean2checbox.initialdata
 html/Elements/EditCustomFieldBoolean
 html/Elements/ShowCustomFieldBoolean
 inc/Module/AutoInstall.pm
