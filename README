@@ -13,7 +13,8 @@ DESCRIPTION
     BooleanCustomField, you have only a single checkbox to check or uncheck.
 
 RT VERSION
-    Works with RT 4.0 or greater.
+    Works with RT 4.0 or greater. Use v0.03 for RT 4 and last version for RT
+    5 and upper.
 
     It should be noted that from RT 5, you can use a SelectCustomField with
     Checkbox RenderType to have the same functionality than
@@ -32,7 +33,7 @@ RT VERSION
 INSTALLATION
     export $RTHOME=/home/of/your/RT/installation/lib
         This is needed if your RT installation directory is not /opt/rt6/
-        (nor /opt/rt5 for RT 5, nor /opt/rt4 for RT 4)
+        (nor /opt/rt5 for RT 5, nor /opt/rt4 for RT 4).
 
     perl Makefile.PL
     make

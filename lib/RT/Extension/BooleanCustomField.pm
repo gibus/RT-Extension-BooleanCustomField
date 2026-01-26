@@ -20,7 +20,7 @@ This enhances the behaviour allowed by core C<Request Tracker> through C<SelectC
 
 =head1 RT VERSION
 
-Works with RT 4.0 or greater.
+Works with RT 4.0 or greater. Use v0.03 for RT 4 and last version for RT 5 and upper.
 
 It should be noted that from RT 5, you can use a C<SelectCustomField> with C<Checkbox> C<RenderType> to have the same functionality than C<BooleanCustomField>. The difference is that C<Checkbox> expects two values, first for unchecked and the other for checked. While C<BooleanCustomField> use C<no value> for unchecked and C<1> for checked. So if you want to migrate a C<CustomField> from C<BooleanCustomField> to C<Checkbox>, you have to change the type of this C<CustomField>, add two values (first for unchecked and the other for checked) and then update all objects (tickets, articles, assets…) where this C<CustomField> can be set, moving values from C<unset> to your first value and from c<1> to the second one. This can be tedious if your RT has a lot of tickets, and you should probably stick to C<BooleanCustomField> in this case! Otherwise, you can use the F<etc/boolean2checbox.initialdata> file provided in this distibution.
 
@@ -30,7 +30,7 @@ It should be noted that from RT 5, you can use a C<SelectCustomField> with C<Che
 
 =item export C<$RTHOME=/home/of/your/RT/installation/lib>
 
-This is needed if your C<RT> installation directory is not C</opt/rt6/> (nor C</opt/rt5> for RT 5, nor C</opt/rt4> for RT 4)
+This is needed if your C<RT> installation directory is not C</opt/rt6/> (nor C</opt/rt5> for RT 5, nor C</opt/rt4> for RT 4).
 
 =item C<perl Makefile.PL>
 
