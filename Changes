@@ -1,5 +1,8 @@
 Revision history for RT-Extension-BooleanCustomField
 
+0.05  2026-01-27
+ - Fix install errors due to debian version of Module::Install::RTx
+
 0.04  2026-01-26
  - Add doc for use with RT 4 and RT > 5
  - Add export /home/gibus/work/rt.github.bp/rt/lib/ in install doc
